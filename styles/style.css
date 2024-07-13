@@ -1,0 +1,15 @@
+.donate-head{
+    max-width: 1200px;
+    margin: 0px auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(249, 241, 241, 0.071), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
