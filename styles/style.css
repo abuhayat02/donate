@@ -1,4 +1,4 @@
-.donate-head{
+.donate-head {
     max-width: 1400px;
     margin: 0px auto;
     height: 100vh;
@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+    background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)), url("../images/donation0.jpg");
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,7 +14,8 @@
     gap: 3%;
 
 }
-.title{
+
+.title {
     width: 80%;
     margin: 20px auto;
     font-family: "inter";
@@ -22,13 +23,15 @@
     font-weight: bold;
     color: rgba(252, 250, 250, 0.911);
 }
-.sub-title{
+
+.sub-title {
     width: 60%;
     margin: 10px auto;
     font-size: 18px;
     color: #ffffff;
 }
-.btn{
+
+.btn {
     color: white;
     background-color: #FF5959;
     padding: 15px 25px;
@@ -38,14 +41,15 @@
     border: none;
     outline: none;
 }
+
 /* main section for desktop */
-.section-margin{
+.section-margin {
     max-width: 1100px;
     margin: 50px auto;
 }
 
 /* amount section  */
-.amount-section{
+.amount-section {
     width: 90%;
     margin: 0px auto;
     font-family: "inter";
@@ -57,51 +61,61 @@
 
 }
 
-.title2{
+.title2 {
     text-align: center;
     font-weight: bold;
     font-size: 45px;
     font-family: "inter";
 }
-.plan-title{
+
+.plan-title {
     font-size: 24px;
     font-weight: 600;
     font-family: "inter";
 }
-.plan-sub-title{
+
+.plan-sub-title {
     font-size: 16px;
     color: #707070;
     text-align: justify;
 }
-.plan-items{
+
+.plan-items {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
-.color1{
+
+.color1 {
     background-color: #4f9da61c;
 }
-.color2{
-background-color: #ff59592b;
+
+.color2 {
+    background-color: #ff59592b;
 }
-.color3{
+
+.color3 {
     background-color: #fff4d636;
 }
-.plan-item{
+
+.plan-item {
     border-radius: 5px;
     padding: 20px;
     transition: 1s;
 }
-.plan-item:hover{
+
+.plan-item:hover {
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.153);
 
 }
-.sub-title-2{
+
+.sub-title-2 {
     font-size: 15px;
     text-align: center;
-    color:#707070;
+    color: #707070;
 }
-.amount-items{
+
+.amount-items {
     margin: 0;
     padding: 0;
     display: flex;
@@ -111,28 +125,30 @@ background-color: #ff59592b;
     align-items: center;
 }
 
-.amount-items li{
+.amount-items li {
     list-style: none;
-    padding:  30px;
+    padding: 30px;
     background-color: rgba(222, 236, 241, 0.653);
     border-radius: 3px;
     text-align: center;
     font-family: "inter";
     font-weight: bold;
-    color:#707070;
+    color: #707070;
     box-sizing: border-box;
     border: 1px solid rgba(250, 250, 250, 0.016);
 
 
 
 }
-.amount-items li:hover{
+
+.amount-items li:hover {
     background-color: rgba(228, 43, 43, 0.299);
     border: 1px solid red;
     color: red;
     transition: 1s;
 }
-input[type=number]{
+
+input[type=number] {
     width: 90%;
     outline: none;
     border-top: none;
@@ -143,10 +159,67 @@ input[type=number]{
     color: #827e7e;
     font-size: 13px;
 }
+
+.donation-area {
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.area-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.donation-item {
+    width: 50%;
+    border: 1px solid rgba(217, 236, 247, 0.596);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.area-title {
+    text-align: start;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "inter";
+}
+
+.donation-item:hover {
+    box-shadow: 10px 10px 10px 10px rgba(86, 84, 84, 0.16) ;
+    transition: 1s;
+}
+.subscribe{
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 255, 0.187);
+}
+input[type = Email]{
+    padding: 19px 25px;
+    width: 80%;
+    border:none;
+    outline: none;
+}
+
 /* responsive modle  */
 
-@media  screen and (max-width:576px) {
-    .btn{
+@media screen and (max-width:576px) {
+    .btn {
         color: white;
         background-color: #FF5959;
         padding: 8px 15px;
@@ -156,22 +229,29 @@ input[type=number]{
         border: none;
         outline: none;
     }
-    .donate-head{
+    input[type = Email]{
+        padding: 6px 15px;
+        width: 80%;
+        border:none;
+        outline: none;
+    }
+    .donate-head {
         width: 100%;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)), url("../images/donation0.jpg");
         flex-direction: column;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         gap: 3%;
-    
+
     }
-    .title{
+
+    .title {
         width: 95%;
         margin: 20px auto;
         font-family: "inter";
@@ -179,51 +259,92 @@ input[type=number]{
         font-weight: bold;
         color: rgba(252, 250, 250, 0.911);
     }
-    .sub-title{
+
+    .sub-title {
         width: 80%;
         margin: 10px auto;
         font-size: 15px;
         color: #ffffff;
     }
 
-    
-    .amount-items{
+
+    .amount-items {
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
         gap: 20px;
     }
-    .plan-items{
+
+    .plan-items {
         width: 90%;
         margin: 10px auto;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+    }
+
+    .donation-area {
+        width: 100%;
+        margin: 70px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .area {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .area-title {
+        text-align: start;
+        font-weight: bold;
+        font-size: 45px;
+        font-family: "inter";
+    }
+
+    .area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .donation-item {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .area-title{
+        font-size: 26px;
     }
 }
 
+/* medium device */
+
 @media screen and (min-width:577px) and (max-width:992px) {
-    .donate-head{
+    .donate-head {
         width: 97%;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)), url("../images/donation0.jpg");
         flex-direction: column;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         gap: 3%;
-    
+
     }
 
-    .btn{
+    .btn {
         color: white;
         background-color: #FF5959;
         padding: 11px 20px;
@@ -233,7 +354,13 @@ input[type=number]{
         border: none;
         outline: none;
     }
-    .title{
+    input[type = Email]{
+        padding: 11px 20px;
+        width: 80%;
+        border:none;
+        outline: none;
+    }
+    .title {
         width: 80%;
         margin: 20px auto;
         font-family: "inter";
@@ -241,27 +368,30 @@ input[type=number]{
         font-weight: bold;
         color: rgba(252, 250, 250, 0.911);
     }
-    .sub-title{
+
+    .sub-title {
         width: 70%;
         margin: 10px auto;
         font-size: 16px;
         color: #ffffff;
     }
-    .amount-items{
+
+    .amount-items {
         margin: 0;
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: space-evenly;
         align-items: center;
         gap: 10px;
     }
-    .plan-items{
+
+    .plan-items {
         width: 70%;
         margin: 10px auto;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
- 
+
 }
