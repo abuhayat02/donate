@@ -6,10 +6,101 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(249, 241, 241, 0.071), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+    background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    gap: 3%;
 
+}
+.title{
+    width: 80%;
+    margin: 20px auto;
+    font-family: "inter";
+    font-size: 64px;
+    font-weight: bold;
+    color: rgba(252, 250, 250, 0.911);
+}
+.sub-title{
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #ffffff;
+}
+.btn{
+    color: white;
+    background-color: #FF5959;
+    padding: 15px 25px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+/* responsive modle  */
+
+@media  screen and (max-width:576px) {
+    .donate-head{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap: 3%;
+    
+    }
+    .title{
+        width: 95%;
+        margin: 20px auto;
+        font-family: "inter";
+        font-size: 34px;
+        font-weight: bold;
+        color: rgba(252, 250, 250, 0.911);
+    }
+    .sub-title{
+        width: 80%;
+        margin: 10px auto;
+        font-size: 15px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .donate-head{
+        width: 97%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(31, 29, 29, 0.418), rgba(0, 0, 0, 0.902)) ,url("../images/donation0.jpg");
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap: 3%;
+    
+    }
+    .title{
+        width: 80%;
+        margin: 20px auto;
+        font-family: "inter";
+        font-size: 55px;
+        font-weight: bold;
+        color: rgba(252, 250, 250, 0.911);
+    }
+    .sub-title{
+        width: 70%;
+        margin: 10px auto;
+        font-size: 16px;
+        color: #ffffff;
+    }
 }
